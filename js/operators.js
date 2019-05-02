@@ -1,5 +1,21 @@
-var x = 66;
-var y = 77;
+
+var age = prompt('How old are you?');
+var accompaniedByAdult = false;
+
+if (age >= 18){
+    alert('Allowed!');
+}else{
+    alert('Denied!');
+}
+
+if (age >= 21){
+    alert('You are Free!');
+}else{
+    alert('Try again next year!');
+}
+
+
+
 
 
 
