@@ -2,7 +2,7 @@
 var age = prompt('How old are you?');
 var accompaniedByAdult = false;
 
-if (age >= 18){
+if (age >= 18 && age <= 21){
     alert('Allowed!');
 }else{
     alert('Denied!');
